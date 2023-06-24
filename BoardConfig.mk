@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-CH6
+DEVICE_PATH := device/tecno/CH6
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -112,3 +112,4 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+TW_BUILD_VERSION := BUILD NINO
